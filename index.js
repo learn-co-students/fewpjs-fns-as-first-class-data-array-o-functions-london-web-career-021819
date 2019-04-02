@@ -53,14 +53,10 @@ const routine = [
 ]
 
 // function exerciseDog(dogName, dogBreed){
-//   array = []
-//   for(let i in routine){
-//     let result = routine[i]
-//     array.push(result)
-//   }
-//   return array
+//   return routine.map(function(func) {
+//     return func(dogName,dogBreed)
+//   })
 // }
-
 
 
 function exerciseDog(dogName, dogBreed){
