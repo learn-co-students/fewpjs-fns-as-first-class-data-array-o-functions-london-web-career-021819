@@ -58,6 +58,7 @@ const routine = [
 //   })
 // }
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 function exerciseDog(dogName, dogBreed){
   return routine.map(func => func(dogName,dogBreed))
